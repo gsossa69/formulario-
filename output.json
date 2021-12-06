@@ -1,0 +1,193 @@
+{  
+    
+    "name": "TREN INFERIO",  
+      "categoryId": 2,
+      "axisId": 4,
+      "subaxisId": 7,
+      "code": "FPF001",
+      "templateCode": "TMP-VC",
+      "createdBy": "Jorge Eliécer Oquendo Vera",
+      "createdProfession": "Grupo ejercicio físico Solaz IPS",
+      "auditedBy": "Clara Isabel García Giraldo",
+      "auditedProfession": "Fisioterapeuta Solaz IPS",
+      "instruction": "<b>Cardio</b>: Le recomendamos utilizar calzado cerrado, preferiblemente tipo tenis. Controle su postura, manteniendo la mirada siempre al frente.<br><br><b>Flexibilidad</b>:  Al realizar este tipo de ejercicios  verifique que el entorno esté libre de obstáculos y las superficies de apoyo secas. Evite siempre dolor, rebotes y realizar movimientos exagerados.<br><br><b>Fuerza</b>: De igual manera debe inspeccionar el entorno.<br><br><b>Regla de oro</b>: siempre evitar dolor.<br><br>Recuerde mantener un patrón respiratorio correcto: expulsar el aire cuando se encuentre haciendo un esfuerzo. Tenga presente descansar uno o dos minutos entre serie y serie.<br><br><b>Nunca olvide que el orden indicado de una rutina de ejercicios es: calentamiento, actividad principal, y finalmente, vuelta a la calma.</b>",
+      "motivation": "Aumentar la flexibilidad de sus miembros inferiores mejorará su postura, disminuyendo de esta forma la aparición del dolor, especialmente al caminar.<b>",
+      "introduction": "A continuación, le presentamos 4 ejercicios que le permitirán estirar esta región del cuerpo. <br><br>¡Adelante! Iniciemos.",
+      "objective": "Incrementar las posibilidades de la movilidad articular de cadera, rodilla y pie.",
+      "content": [
+        {
+          "order": 0,
+          "media_uri": "FLEXORES DE RODILLA_1",
+          "type": "mp4",
+          "name": "Flexores de rodilla"
+        },
+        {
+          "order": 1,
+          "media_uri": "FLEXORES DE CADERA_2",
+          "type": "mp4",
+          "name": "Flexores de cadera"
+        },
+        {
+          "order": 2,
+          "media_uri": "EXTENSORES DE CADERA_3",
+          "type": "mp4",
+          "name": "Extensores de cadera"
+        },
+        {
+          "order": 3,
+          "media_uri": "ESTIRAMIENTO DE ABDUCTORES DE CADERA_4",
+          "type": "mp4",
+          "name": "Abductores de cadera"
+        },
+        
+          {
+              "id": 1,
+              "name": "Cognitivo",
+              "Axes": [
+                  {
+                      "id": 1,
+                      "name": "Memoria",
+                      "Subaxes": [
+                          {
+                              "id": 1,
+                              "name": "Largo plazo"
+                          },
+                          {
+                              "id": 2,
+                              "name": "Corto plazo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "name": "Lenguaje",
+                      "Subaxes": [
+                          {
+                              "id": 3,
+                              "name": "Oral"
+                          },
+                          {
+                              "id": 4,
+                              "name": "Comprensivo"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "name": "Orientacion",
+                      "Subaxes": [
+                          {
+                              "id": 5,
+                              "name": "Tiempo-espacio"
+                          },
+                          {
+                              "id": 6,
+                              "name": "Persona"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": 2,
+              "name": "Físico",
+              "Axes": [
+                  {
+                      "id": 4,
+                      "name": "Postura",
+                      "Subaxes": [
+                          {
+                              "id": 7,
+                              "name": "Flexibilidad"
+                          },
+                          {
+                              "id": 8,
+                              "name": "Mobilidad Articular"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 5,
+                      "name": "Fuerza",
+                      "Subaxes": [
+                          {
+                              "id": 9,
+                              "name": "Estatica"
+                          },
+                          {
+                              "id": 10,
+                              "name": "Dinamica"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 6,
+                      "name": "Equlibrio",
+                      "Subaxes": [
+                          {
+                              "id": 11,
+                              "name": "Marcha"
+                          },
+                          {
+                              "id": 12,
+                              "name": "Coordinacion"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "id": 3,
+              "name": "Ocio",
+              "Axes": [
+                  {
+                      "id": 7,
+                      "name": "Inteligencia Emocional",
+                      "Subaxes": [
+                          {
+                              "id": 13,
+                              "name": "Comunicación afectiva"
+                          },
+                          {
+                              "id": 14,
+                              "name": "Mobilidad Articular"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 8,
+                      "name": "Manualidad",
+                      "Subaxes": [
+                          {
+                              "id": 15,
+                              "name": "Motricidad fina"
+                          },
+                          {
+                              "id": 16,
+                              "name": "Creatividad"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 9,
+                      "name": "Ludica",
+                      "Subaxes": [
+                          {
+                              "id": 17,
+                              "name": "Juegos mesa"
+                          },
+                          {
+                              "id": 18,
+                              "name": "Retos"
+                          }
+                      ]
+                  }
+              ]
+          }
+      
+      
+      ],
+      "status": 1,
+      "createdAt": "new Date()",
+      "updatedAt": "new Date()"
+    }

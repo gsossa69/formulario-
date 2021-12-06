@@ -1,0 +1,98 @@
+<div class="color">
+<form class="example-form">
+    
+  
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nombre de Actividad</mat-label>
+        <input matInput>
+      </mat-form-field></td>
+      <td>
+        <mat-form-field appearance="fill">
+            <mat-label>Categoria</mat-label>
+            <mat-select [(value)]="selected">
+              <mat-option>None</mat-option>
+              <mat-option value="option1">cognitivo</mat-option>
+              <mat-option value="option2">fisico</mat-option>
+              <mat-option value="option3">ocio</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td> 
+    </tr></table>
+    <td>
+    <mat-form-field appearance="fill">
+        <mat-label>Eje</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option>None</mat-option>
+          <mat-option value="option1">memoria</mat-option>
+          <mat-option value="option1.1">lenguaje</mat-option>
+          <mat-option value="option1.2">orientacion</mat-option>
+          <mat-option value="option2">Postura</mat-option>
+          <mat-option value="option2.1">Fuerza</mat-option>
+          <mat-option value="option2.2">Equlibrio</mat-option>
+          <mat-option value="option3">Inteligencia Emocional</mat-option>
+          <mat-option value="option3.1">Manualidad</mat-option>
+          <mat-option value="option3.2">Ludica</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </td> 
+      <mat-form-field appearance="fill">
+        <mat-label>Subeje</mat-label>
+        <mat-select [(value)]="selected">
+          <mat-option>None</mat-option>
+          <mat-option value="option1">Largo plazo</mat-option>
+          <mat-option value="option1.1">Comprensivo</mat-option>
+          <mat-option value="option1.2">Tiempo-espacio</mat-option>
+          <mat-option value="option2">Flexibilidad</mat-option>
+          <mat-option value="option2.1">Dinamica</mat-option>
+          <mat-option value="option2.2">Marcha</mat-option>
+          <mat-option value="option3">Comunicación afectiva</mat-option>
+          <mat-option value="option3.1">Creatividad</mat-option>
+          <mat-option value="option3.2">Juegos mesa</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+    <p>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Instrucción</mat-label>
+        <textarea matInput placeholder="Ex. 100 Main St"></textarea>
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>introducción</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field>
+    </p>
+  
+    <p>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Objetivo</mat-label>
+          <textarea matInput placeholder="Ex. 100 Main St"></textarea>
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Motivacion</mat-label>
+          <textarea matInput></textarea>
+        </mat-form-field>
+      </p>
+<!--
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>CreatedBy</mat-label>
+        <input matInput placeholder="Jorge Eliécer Oquendo Vera">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>CreatedProfession</mat-label>
+        <input matInput placeholder="Grupo ejercicio físico Solaz IPS">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>auditedBy</mat-label>
+        <input matInput #postalCode maxlength="" placeholder="Clara Isabel García Giraldo" value="">
+        <mat-hint></mat-hint> align="end"{{postalCode.value.length}} / 5
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>auditedProfession</mat-label>
+        <input matInput placeholder="Fisioterapeuta Solaz IPS">
+      </mat-form-field></td> 
+    </tr></table>-->
+  </form>
+  <button type="submit" mat-raised-button color="primary">Enviar</button>
+</div>
