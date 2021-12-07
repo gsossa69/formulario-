@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "Cognitivo",
+        "Axes": [
+            {
+                "id": 1,
+                "name": "Memoria",
+                "Subaxes": [
+                    {
+                        "id": 1,
+                        "name": "Largo plazo"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Corto plazo"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Lenguaje",
+                "Subaxes": [
+                    {
+                        "id": 3,
+                        "name": "Oral"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Comprensivo"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Orientacion",
+            "Subaxes": [
+                    {
+                        "id": 5,
+                        "name": "Tiempo-espacio"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Persona"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Físico",
+        "Axes": [
+            {
+                "id": 4,
+                "name": "Postura",
+                "Subaxes": [
+                    {
+                        "id": 7,
+                        "name": "Flexibilidad"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Mobilidad Articular"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Fuerza",
+                "Subaxes": [
+                    {
+                        "id": 9,
+                        "name": "Estatica"
+                    },
+                    {
+                        "id": 10,
+                        "name": "Dinamica"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Equlibrio",
+                "Subaxes": [
+                    {
+                        "id": 11,
+                        "name": "Marcha"
+                    },
+                    {
+                        "id": 12,
+                        "name": "Coordinacion"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ocio",
+        "Axes": [
+            {
+                "id": 7,
+                "name": "Inteligencia Emocional",
+                "Subaxes": [
+                    {
+                        "id": 13,
+                        "name": "Comunicación afectiva"
+                    },
+                    {
+                        "id": 14,
+                        "name": "Mobilidad Articular"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Manualidad",
+                "Subaxes": [
+                    {
+                        "id": 15,
+                        "name": "Motricidad fina"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Creatividad"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Ludica",
+                "Subaxes": [
+                    {
+                        "id": 17,
+                        "name": "Juegos mesa"
+                    },
+                    {
+                        "id": 18,
+                        "name": "Retos"
+                    }
+                ]
+            }
+        ]
+    }
+]
